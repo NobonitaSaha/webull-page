@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-container{
+    width: 82%;
+    max-width: 1365px;
+    margin: 0 auto;
+}
+
+.section-padding{
+    padding: 50px 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:  "Arimo", sans-serif;
+}
+
+p, small, li{
+    font-family: Source Sans Pro;
+}
+
+
+
+/* ------------------
+    Logo Start
+---------------------- */
+.logo-center{
+    padding: 60px 0px 40px 0px;
+}
+/* -------------------
+    Logo End
+----------------------- */
+
+
+
+/* --------------------
+    Home Start
+----------------------- */
+.home-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.home-description {
+    min-width: 530px;
+}
+
+.home-image > img {
+    width: 600px;
+}
+
+.home-description > small{
+    color: #0234ff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.home-description > h1{
+    font-size: 56px;
+    font-style: normal;
+    color: #2c2c2c;
+    padding: 25px 0px;
+    line-height: 75px;
+    font-weight: 700;
+}
+
+.home-description > h1 > span{
+    color: #1447e0;
+}
+
+.home-description > p{
+    font-size: 20px;
+    font-style: normal;
+    color: #5d5f67;
+    line-height: 30px;
+}
+
+button.dark-button{
+    background: #1447e0;
+    border: 1px solid #1447e0;
+    font-weight: bold;
+    min-height: 48px;
+    min-width: 96px;
+    padding: 14px 24px;
+    font-family: "Arimo", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 40px 0px 0px 0px;
+    -webkit-transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear;
+    transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear;
+}
+
+button.dark-button:hover {
+    background: #0f37ad;
+    border-color: #0f37ad;
+    color: #ffffff;
+}
+/* ---------------------
+    Home End
+/* -----------------------  */
+
+
+
+/* ---------------------
+    Promotion Start
+------------------------- */
+.promotion-bg {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    padding: 120px 0px 60px;
+    text-align: center;
+}
+
+.promotion-h2 > h2{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+}
+
+.time-section-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 80px 140px 50px 140px;
+}
+
+.count-days {
+    font-size: 80px;
+    font-family:  "Arimo", sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+    color: #ffffff;
+}
+
+.time-name {
+    font-size: 25px;
+    font-family:  "Arimo", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    white-space: nowrap;
+    word-break: break-word;
+    margin-top: 15px;
+}
+
+#octagon {
+    width: 180px;
+    height: 160px;
+    background: rgb(20, 71, 224);
+    position: relative;
+}
+
+#octagon:before {
+    content: "";
+    width: 180px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 29px solid rgb(20, 71, 224);
+    border-left: 29px solid #000000;
+    border-right: 29px solid #000000;
+}
+#octagon:after {
+    content: "";
+    width: 180px;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 29px solid rgb(20, 71, 224);
+    border-left: 29px solid #000000;
+    border-right: 29px solid #000000;
+}
+/* ----------------------
+    Promotion End
+------------------------- */
+
+
+
+/* -----------------------
+    Service Start
+--------------------------- */
+.service-h2 > h2 {
+    font-size: 52px;
+    font-style: normal;
+    text-align: center;
+    color: #2c2c2c;
+    font-weight: 700;
+}
+
+.service-card {
+    box-shadow: 0 13px 43px 0 rgb(82 82 82 / 10%);
+    padding: 32px 30px;
+}
+
+.service-content{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.service-icon > img{
+    font-size: 64px;
+    padding: 20px;
+}
+
+.service-text > h3 {
+    color: #303030;
+    font-size: 22px;
+    padding: 14px 0px;
+    font-weight: 700;
+}
+
+.service-text > p{
+    color: #5d5f67;
+    min-height: 14px;
+    white-space: pre-wrap;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.75;
+}
+/* ------------------------
+    Service End
+--------------------------- */
+
+
+
+/* ------------------------
+    Testimonial Start
+----------------------------- */
+.testimonial-bg{
+    background: #000000;
+    padding: 100px 0px ;
+}
+
+.testimonial-content {
+    text-align: center;
+}
+
+.testimonial-text > h2{
+    font-size: 52px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+img.right-icon {
+    width: 94px;
+}
+
+.testimonial-text > p{
+    color: #ebebeb;
+    font-size: 21px;
+    line-height: 1.85;
+    padding: 20px 160px 30px;
+
+}
+
+.client-ratings {
+    display: inline-flex;
+}
+
+.client-img > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.rating {
+    margin-left: -18px;
+}
+
+.rating > ul > li{
+    display: inline;
+    font-size: 13px;
+    color: #ffe629;
+}
+
+.rating > small{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+
+}
+/* ---------------------------
+    Testimonial End
+------------------------------ */
+
+
+
+/* --------------------------
+    Footer Start
+----------------------------- */
+.footer-section{
+    padding-bottom: 100px;
+}
+
+.footer-description{
+    text-align: center;
+    padding: 0px 120px;
+}
+
+.footer-sign-up > a{
+    text-decoration: none;
+}
+
+.footer-sign-up > a > small{
+    color: #0234ff;
+    font-weight: bold;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+}
+
+.footer-title > h2 {
+    font-size: 48px;
+    color: rgb(44, 44, 44);
+    padding: 15px 0px;
+    font-weight: 700;
+}
+
+.footer-title > p{
+    font-size: 20px;
+    color: #5d5f67;
+}
+
+.footer-title > p > a{ 
+    color: #5d5f67;
+}
+
+.footer-btn button.dark-button{
+    background: #1447e0;
+    border: 1px solid #1447e0;
+    font-weight: bold;
+    min-height: 48px;
+    min-width: 96px;
+    padding: 14px 24px;
+    font-family: "Arimo", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 15px 0px !important;
+    -webkit-transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear;
+    transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear;
+}
+
+.footer-btn button.dark-button:hover {
+    background: #0f37ad;
+    border-color: #0f37ad;
+    color: #ffffff;
+}
+
+.footer-btn-group{
+    text-align: center;
+}
+
+.footer-btn-group > button{
+    border: none;
+    background-color: transparent;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    color: #5d5f67;
+    text-decoration: underline;
+    margin: 10px 0px;
+    transition: all 2s ease;
+}
+
+.footer-btn-group > button:hover{
+    text-decoration: none;
+}
+
+.footer-bottom-text > p{
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    color: #5d5f67;
+    text-align: center;
+    padding: 15px 70px;
+    line-height: 1.25;
+}
+
+
+/* -- Footer Modal PopUp Start -- */
+h2.modal-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 8px 0px;
+    color: rgb(44, 44, 44);
+}
+
+h3.footer-title {
+    font-size: 24px;
+    color: rgb(44, 44, 44);
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+p.footer-text {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #5d5f67;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ul.list-icon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.list-icon li {
+    display: flex;
+    align-items: center;
+    margin: 15px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #5d5f67;
+    line-height: 20px;
+}
+
+ul.list-icon li .icon {
+    width: 25px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    margin-right: -8px;
+    min-width: 30px;
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+span.icon.background-transparent i {
+    font-size: 15px;
+}
+
+.btn-close {
+    padding: 20px 30px !important;
+	outline: none !important;
+}
+
+.btn-close:focus {
+    box-shadow: none !important;
+}
+
+button.btn.btn-danger {
+    padding: 8px 24px;
+    font-size: 14px;
+    border-radius: 0px;
+    font-family:  'Inter', sans-serif;
+    letter-spacing: 0.3px;
+    -webkit-transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear !important;
+    transition: color 0.2s linear, background 0.2s linear, border-color 0.2s linear, text-shadow 0.2s linear !important;
+    background: #1447e0 !important;
+    border: 1px solid #1447e0 !important;
+    opacity: 1;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background: #0f37ad !important;
+    border-color: #0f37ad !important;
+    color: #ffffff !important;
+}
+/* -- Footer Modal PopUp End -- */
+/* --------------------------
+    footer End
+--------------------------- */
